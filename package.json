@@ -1,0 +1,38 @@
+{
+  "name": "passport-qq2015",
+  "version": "1.0.0",
+  "description": "qq  authentication strategy for Passport.",
+  "keywords": [
+    "QQ",
+    "authentication"
+  ],
+  "author": {
+    "name": "rainie",
+    "email": "chenyutian0510@gmail.com",
+    "url": "http://www.cyt-rain.cn/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lanjingling0510/passport-qq2015.git"
+  },
+  "bugs": {
+    "url": "http://github.com/lanjingling0510/passport-qq2015/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "request": "^2.67.0",
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "_id": "passport-qq2015@1.0.0"
+}
