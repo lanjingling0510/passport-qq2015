@@ -5,10 +5,10 @@ QQ第三方授权登录,使用与web网站，可在express和koa等框架中使�
 ## Install
 
 ```
-$ npm install passport
+$ npm install passport-qq2015
 ```
 
-## <a name="project_structure"></a>项目文件结构
+## 项目文件结构
 整个项目采用MVC架构，基本项目结构如下图
 ```asciidoc
 passport-qq2015/             项目根目录
