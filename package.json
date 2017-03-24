@@ -1,22 +1,22 @@
 {
-  "name": "passport-qq2015",
-  "version": "1.0.0",
+  "name": "passport-qq2015-fix",
+  "version": "0.1.0",
   "description": "qq  authentication strategy for Passport.",
   "keywords": [
     "QQ",
     "authentication"
   ],
   "author": {
-    "name": "rainie",
-    "email": "chenyutian0510@gmail.com",
-    "url": "http://www.cyt-rain.cn/"
+    "name": "a632079",
+    "email": "a632079@qq.com",
+    "url": "https://i.a632079.me"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lanjingling0510/passport-qq2015.git"
+    "url": "https://github.com/NodeBB-China/passport-qq2015-fix.git"
   },
   "bugs": {
-    "url": "http://github.com/lanjingling0510/passport-qq2015/issues"
+    "url": "https://github.com/NodeBB-China/passport-qq2015-fix/issues"
   },
   "licenses": [
     {
