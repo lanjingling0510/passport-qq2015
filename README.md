@@ -33,14 +33,19 @@ passport-qq2015-fix/             项目根目录
     clientID: config.qq.appID,
     clientSecret: config.qq.appKEY,
     callbackURL: 'http://www.xxxx.com/auth/token/qq/callback'
+    passReqToCallback: true //不需要的话可以设置成 false
   },
-    function (accessToken, refreshToken, profile, done) {
+    function (req,accessToken, refreshToken, profile, done) {
+      //function (accessToken, refreshToken, profile, done) 如果你设置为false后请使用这个方法
       if (!profile) {
         return done(null, false);
+      }else{
+          profile = JSON.parse(profile); //解析profile
+          if(profile.ret = -1){
+              return done(null, false); //api给你返回了错误，捕获
+          }
+          return done(null, profile);
       }
-
-      return done(null, profile);
-    }
   ));
 ```
 
