@@ -1,6 +1,6 @@
 {
   "name": "passport-qq2015-fix",
-  "version": "1.1.6",
+  "version": "1.1.8",
   "description": "qq  authentication strategy for Passport.",
   "keywords": [
     "QQ",
